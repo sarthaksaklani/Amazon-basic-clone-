@@ -1,0 +1,228 @@
+*{
+    margin:0%;
+    padding:0%;
+   
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+width: 100%;
+height: 60px;
+background-color:#0f1111;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+position: fixed;
+}
+.fakenav{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+#logo{
+    height: 90%;
+    width: 150px;
+   
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    margin: 2px;
+    margin-top: 2px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+#logo img:hover{
+border: 1px solid white;
+}
+.addicon{
+    font-size: larger;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.add1{
+    color:#cccccc;
+    color: 0.85em;
+    margin-left: 15px;
+}
+.add2{
+    margin-left: 3px;
+}
+.address{
+    margin-left: 3px;
+}
+.address:hover{
+    border: 1px solid white;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+.navsearch:hover{
+border: 1px solid orange;
+}
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border:none;
+}
+.searchinput{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgba(245, 161, 6, 0.726);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+span{
+    font: size 0.7em;
+    color: white;
+}
+.navsecond{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+}
+.login:hover{
+    border: 1px solid white
+}
+.navreturn:hover{
+    border: 1px solid white
+}
+.navcart{
+    color: white;
+    display: flex;
+}
+.navcart:hover{
+    border: 1px solid white;
+}
+.navcart i{
+    font-weight:bolder;
+    font-size: large; 
+}
+#cart{
+    font-size: medium;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-around;
+}
+.panelopt p{
+    display:inline;
+    margin-left: 15px;
+}
+.panelopt p:hover{
+   border:1px solid white;
+}
+.panelall:hover{
+    border:1px solid white
+}
+.panelopt{
+    width:70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero{
+    background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromsg{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:95%;
+    margin-bottom:35px;
+}
+.heromsg a{
+   color: #007185;
+}
+.box{
+    height:360px;
+    width:23%;
+    border:1px solid black;
+    background-color: white;
+}
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box1 img{
+    margin-top: 6px;
+    object-fit: cover;
+    width: 90%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
+.box p:hover{
+    color:orange
+}
+.box2 img{
+    margin-top: 6px;
+    object-fit: cover;
+    width: 90%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
+.box3 img{
+    margin-top: 6px;
+    object-fit: cover;
+    width: 90%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
+.box4 img{
+    margin-top: 6px;
+    object-fit: cover;
+    width: 90%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
